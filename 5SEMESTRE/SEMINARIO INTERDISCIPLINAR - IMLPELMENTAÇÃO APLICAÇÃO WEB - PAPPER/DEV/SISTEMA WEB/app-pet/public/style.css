@@ -1,0 +1,204 @@
+h1,h2,h3,h4,h5{
+    line-height: 1.5;
+}
+
+p{
+    color: #8b8b8b;
+}
+body{
+    margin-top: 140px;
+}
+
+/*NAVBAR*/
+.navbar{
+    background-color:#67656e; 
+}
+
+.navbar src{
+    background-color:#67656e;
+	width: 5rem;
+}
+
+.navbar .container {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 15px 0 2px;
+	text-transform: uppercase;
+}
+
+.navbar .container ul {
+	font-size: 18px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 3px;
+	color: #7F8C8D;
+}
+
+.navbar .container ul li a {
+	font-size: 25px;
+	text-transform: capitalize;
+	color: rgba(236, 114, 22, 0.886); 
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.4s ease;
+}
+
+#idLogo{
+    color: aliceblue;
+}
+
+/*BANNER*/
+#banner{
+    background-color: rgba(236, 114, 22, 0.886); 
+    color: #ffff;
+    padding: 100px 0 70px 0;
+}
+
+#banner img{
+    width: 100%;
+}
+
+.btn-banner{
+    margin: 8% 3% 5% 0;
+}
+
+
+/*FEATURES*/
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.fa-solid{
+    color: rgba(236, 114, 22, 0.886); 
+    margin-bottom: 20px;
+}
+
+/*FEATURES*/
+
+#feedback{
+    background-color: #f3f3f3; 
+    color: #323338;
+    padding: 5% 15% 8%;
+    text-align: center;
+    
+}
+
+#feedback img{
+    border-radius: 50%;
+    width: 15%;
+    margin: 20px;
+}
+
+#feedback em{
+   font-size: 30px;
+}
+
+/*PLANOS*/
+
+#planos .titulo{
+    margin-top: 5%;
+}
+
+#planos{
+    padding: 5% 15% 8%;
+    color: #323338;
+    
+}
+
+#planos .row{
+    height: auto;
+}
+
+/*FOOTER*/
+
+#footer {
+	background-color:#67656e;
+	height: auto;
+    padding: 1% 4%;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #DDDDDD;
+}
+
+#footer p {
+	margin: 0;
+}
+
+#footer img {
+	max-width: 100%;
+}
+
+#footer h3 {
+	border-bottom: 1px solid #BAC1C8;
+	color: #f49506;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 27px;
+	padding: 40px 0 10px;
+}
+
+#footer ul {
+	font-size: 14px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+
+#footer ul li a {
+	font-size: 25px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.4s ease;
+}
+
+#footer ul li a:hover{
+	color: #080606;
+	padding-left: 8px;
+}
+
+#footer .redesSociais a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+#footer .redesSociais a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.footer-bottom {
+    text-align: center;
+	background-color:#67656e;
+    color: #ffffff;
+	border-top: 1px solid #DDDDDD;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer-bottom p.pull-left {
+	padding-top: 6px;
+    color: #080606;
+}
+
+.footer .mapa {
+	width: 400px;
+
+}

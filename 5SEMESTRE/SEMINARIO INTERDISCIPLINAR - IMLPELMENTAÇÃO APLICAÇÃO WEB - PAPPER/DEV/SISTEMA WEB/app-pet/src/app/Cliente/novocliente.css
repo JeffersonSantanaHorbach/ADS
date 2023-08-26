@@ -1,0 +1,39 @@
+.navbar{
+    background-color:#67656e; 
+}
+
+.navbar #idLogo{
+    color:#eb8c07;
+    height: 89px; 
+   
+}
+
+.navbar .container {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 15px 0 2px;
+	text-transform: uppercase;
+}
+
+.navbar .container ul {
+	font-size: 18px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 3px;
+	color: #7F8C8D;
+}
+
+.navbar .container ul li a {
+	font-size: 25px;
+	text-transform: capitalize;
+	color: rgba(236, 114, 22, 0.886); 
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.4s ease;
+}
+
+#idLogo{
+    color: aliceblue;
+}
